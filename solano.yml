@@ -1,7 +1,7 @@
 hooks:
   pre: npm install --dev
 nodejs:
-  version: '4.1.1'
+  version: '5.9.0'
 tests:
   - npm test
 collect:
