@@ -1,0 +1,13 @@
+hooks:
+  pre: npm install --dev
+nodejs:
+  version: '0.12.4'
+tests:
+  - npm test
+collect:
+  repo:
+    - build/coverage/coverage.json
+coverage:
+  version: 2
+  enabled: true
+ 
